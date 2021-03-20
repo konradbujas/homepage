@@ -1,0 +1,35 @@
+
+body{background: linear-gradient(
+    30deg
+    ,#bababe,#77757a);}
+h2{
+    color: #0510a8;
+    
+}
+header{background: #4aeee677;}
+footer{background: #4aeee677;}
+
+.special-header{
+    color:aqua;
+}
+
+#top{
+    background: #cec9c9;
+}
+
+nav a{
+    color: #125820;
+}
+
+a {
+    color: #920202;
+}
+.little-header{
+    color: #ee0686
+}
+.my-love-notes{
+    background: rgb(226, 170, 133);
+}
+#newsletter{
+    background: grey;
+}
