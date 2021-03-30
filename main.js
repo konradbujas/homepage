@@ -1,4 +1,4 @@
-alert("Kto tu zagląda ten tak wygląda : o.0");
+
 console.log("siema!")
 
 const firstName="Konrad";

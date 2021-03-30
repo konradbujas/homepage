@@ -33,3 +33,24 @@ a {
 #newsletter{
     background: grey;
 }
+#button{
+    background: #e68d09;
+    border-radius: 10px;
+    border: 2px solid #6c3ff3;
+    padding-left: 20px;
+    width: 130px;
+    margin-left: 38%;
+}
+
+
+main{
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.photo{
+    float: left;
+    margin-right: 20px;
+}
