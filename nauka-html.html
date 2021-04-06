@@ -10,10 +10,12 @@
 
   <body>
     <header id="top">
-      <nav>
-        <a href="index.html">strona główna</a>
-        <a href="nauka-html.html">nauka html</a>
-        <a href="nauka-css.html">nauka css</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">nauka html</a>
+        <a class="navigation__link" href="nauka-css.html">nauka css</a>
       </nav>
     </header>
 
@@ -24,21 +26,21 @@
       <img src="html_ikonka.jpg" alt="ikonka html" />
 
       <section class="my-love-notes">
-        <h2 id="notatki">Moje ulubione tagi</h2>
+        <h2>Moje ulubione tagi</h2>
 
-        <article>
-          <h3>h1</h3>
-          <p>To jest mój ulubiony nagłówek</p>
+        <article class="learn-technique" >
+          <h3 class="learn-technique__title">h1</h3>
+          <p class="learn-technique__description">To jest mój ulubiony nagłówek</p>
         </article>
 
-        <article>
-          <h3># (hash)</h3>
-          <p>Hash to jest symbol id</p>
+        <article class="learn-technique">
+          <h3 class="learn-technique__title"># (hash)</h3>
+          <p class="learn-technique__description">Hash to jest symbol id</p>
         </article>
 
-        <article>
-          <h3>. (kropka)</h3>
-          <p>Kropka . to jest symbol klasy</p>
+        <article class="learn-technique">
+          <h3 class="learn-technique__title">. (kropka)</h3>
+          <p class="learn-technique__description">Kropka . to jest symbol klasy</p>
         </article>
       </section>
     </main>

@@ -10,10 +10,12 @@
 
   <body>
     <header id="top">
-      <nav>
-        <a href="index.html">strona główna</a>
-        <a href="nauka-html.html">nauka html</a>
-        <a href="nauka-css.html">nauka css</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">nauka html</a>
+        <a class="navigation__link" href="nauka-css.html">nauka css</a>
       </nav>
     </header>
 
@@ -22,19 +24,19 @@
         <h1>Konrad Bujas - strona domowa na potrzeby kursu WTF</h1>
       </header>
 
-      <section>
-        <h2 class="special-header">Kim jestem?</h2>
-        <img class="photo" src="konrad.jpg" alt="Uśmiechnięty Konrad" />
-        <p>
+      <section class="about-me">
+        <h2 class="about-me__heading">Kim jestem?</h2>
+        <img class="about-me__photo" src="konrad.jpg" alt="Uśmiechnięty Konrad" />
+        <p class="about-me__description">
           Hej! Jestem Konrad i już wiele przeszedłem ;) Aktualnie jestem w
-          procesie zmiany branży na IT i cisnę ze szkoleniem<br />
-          Maćka Korsana
+          procesie zmiany branży na IT i cisnę ze szkoleniem Maćka Korsana
           <strong
             ><a href="https://cotenfrontend.pl">WTF Co Ten Frontend.</a></strong
           ><br />
+
           Wcześniej <b>wiele próbowałem</b> i szukałem zajęcia, ale większość
-          zadań albo znudziła mi się, albo zadania się skończyły ;(<br />
-          i pojawiło się u mnie miejsce na coś nowego...<br />
+          zadań albo znudziła mi się, albo zadania się skończyły ;( i pojawiło
+          się u mnie miejsce na coś nowego...<br />
           Po wielu próbach i rozmyślaniach zwróciłem się w stronę IT... wiecie
           nauka, rozwój, nowe technologie, sprawczość i wreszcie kasa ;)<br />
           Ta strona to mój osobisty dziennik nauki i wrzucam tutaj część
@@ -46,30 +48,45 @@
       <section>
         <h2 id="notatki">Notatki z WTF</h2>
 
-        <article>
-          <h3 class="little-header">WTF czyli Co Ten Frontend</h3>
-          <p>Aktualnie sporą część czasu zajmuje mi kurs WTF Co Ten Frontend</p>
-        </article>
-
-        <article>
-          <h3 class="little-header">Język angielski</h3>
-          <p>
-            Tutaj nie poświęcam tyle czasu ile bym chciał, ale nadrabiam
-            zaległości słuchając podcastów i podobnych tego typu treści.
+        <article class="learn-technique">
+          <h3 class="learn-technique__title">WTF czyli Co Ten Frontend</h3>
+          <p class="learn-technique__description">
+            Aktualnie sporą część czasu zajmuje mi kurs WTF Co Ten Frontend.
+            Szkolenie jest w formie filmików/wykładów, na których dokładnie
+            omawiane są kolejne kroki na drodze do zostania junior frontend
+            developerem ;) Aktualnie opracowałem plan dnia, w którym na
+            szkolenie przeznaczam 3 bloki po ok. 3h każdy. Nie zawsze udaje się
+            zaliczyć 3 bloki, ale jestem bardzo zadowolony kiedy wypełnię nauką
+            chociaż dwa takie obszary dnia.
           </p>
         </article>
 
-        <article>
-          <h3>Podcasty</h3>
-          <p>
+        <article class="learn-technique learn-technique--special">
+          <h3 class="learn-technique__title">Język angielski</h3>
+          <p class="learn-technique__description">
+            Tutaj nie poświęcam tyle czasu ile bym chciał, ale nadrabiam
+            zaległości słuchając podcastów i podobnych tego typu treści.<br />
+            Aktualnie sprawdzam metody nauki i jest to np: <br />
+            - smsy do znajomych w języku angielskim,<br />
+            - zmiana języka systemu operacyjnego,<br />
+            - zapisywanie notatek w kalendarzu w języku angielskim,<br />
+
+            Podsumowując próbuję zmienić myślenie na takie angielskie ;) czy mi
+            się uda? Zobaczymy...
+          </p>
+        </article>
+
+        <article class="learn-technique">
+          <h3 class="learn-technique__title">Podcasty</h3>
+          <p class="learn-technique__description">
             To nowość i w odróżnieniu od bloga gdzie czytamy, tu mamy do
             czynienia z audio. Wiele podcastów ma formę wywiadów lub solowych
             odcinków na dany temat. Tematy można wybierać w zależności od
             preferencji. Możemy subskrybować ulubionych twórców. Aktualnie
             używam aplikacji Podcast Addict i oceniam ją o wiele lepiej niż moją
             poprzednią apkę: Player FM. Między innymi przez mnogość opcji,
-            automatyczne pobieranie, opcje archiwum oraz dostępność wielu
-            kanałów.
+            automatyczne pobieranie, opcje archiwum oraz dostępność większej
+            ilości kanałów.
           </p>
         </article>
       </section>
@@ -82,9 +99,8 @@
             informacji ;)<br />
             Pozdrawiam i czekam na odpowiedź, hej! ;)
           </p>
-          <div id='button'>napisz do mnie ;)</div>
+          <div id="button">napisz do mnie ;)</div>
         </article>
-
       </section>
     </main>
 

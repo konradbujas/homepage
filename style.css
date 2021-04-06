@@ -1,35 +1,30 @@
+a {
+    color: #0313eb;
+}
 
 body{background: linear-gradient(
     30deg
-    ,#bababe,#77757a);}
+    ,#e8e8eb,#e2e2f7);
+    max-width: 500%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+ 
+footer{
+    background: #4aeee677;
+    margin-top: 16px;
+}   
+
 h2{
-    color: #0510a8;
-    
-}
-header{background: #4aeee677;}
-footer{background: #4aeee677;}
-
-.special-header{
-    color:aqua;
-}
-
-#top{
-    background: #cec9c9;
-}
-
-nav a{
-    color: #125820;
+    color: #0510a8;    
 }
 
 a {
     color: #0313eb;
 }
-.little-header{
-    color: #ee0686
-}
-.my-love-notes{
-    background: rgb(226, 170, 133);
-}
+
 #newsletter{
     background: grey;
 }
@@ -43,14 +38,67 @@ a {
 }
 
 
-main{
-    max-width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 16px;
-    margin-bottom: 16px;
+.about-me{
+    padding: 16px;
+    background: #d7cee9;
+    border-radius: 10px;
 }
-.photo{
+
+
+.about-me__description{
+    color: #1f0255;
+
+
+}
+.about-me__heading{
+    color:#e68d09;
+}
+
+.about-me__photo{
     float: left;
-    margin-right: 20px;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+.learn-technique{
+    padding: 16px;
+    background:#c2bab3;
+    border: 1px solid #bbb6b6;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+
+.learn-technique__description{
+    color: #0761d6;
+}
+
+
+.learn-technique__title{
+    color: #880a01;
+}
+
+
+.learn-technique--special{
+    border: 3px #026312 solid;
+}
+
+
+.navigation{
+    background: #038a1a;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+.navigation__link{
+    color: white;
+    display: inline-block;
+    margin-right: 20px;  
+}
+
+
+.navigation__link--homepage{
+    background: yellow;
+    color: #000;
 }
