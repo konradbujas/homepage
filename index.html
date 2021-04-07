@@ -19,9 +19,9 @@
       </nav>
     </header>
 
-    <main>
-      <header>
-        <h1>Konrad Bujas - strona domowa na potrzeby kursu WTF</h1>
+    <main class="main">
+      <header >
+        <h1 class="main__heading main__heading--js">Konrad Bujas - strona domowa na potrzeby kursu WTF</h1>
       </header>
 
       <section class="about-me">
@@ -31,7 +31,7 @@
           Hej! Jestem Konrad i już wiele przeszedłem ;) Aktualnie jestem w
           procesie zmiany branży na IT i cisnę ze szkoleniem Maćka Korsana
           <strong
-            ><a href="https://cotenfrontend.pl">WTF Co Ten Frontend.</a></strong
+            ><a class="about-me__link" href="https://cotenfrontend.pl">WTF Co Ten Frontend.</a></strong
           ><br />
 
           Wcześniej <b>wiele próbowałem</b> i szukałem zajęcia, ale większość
@@ -89,24 +89,32 @@
             ilości kanałów.
           </p>
         </article>
+
+        <article class="learn-technique">
+          <h3 class="learn-technique__title">Ćwiczenie z JavaScript</h3>
+          <p class="learn-technique__description learn-technique__description--js">
+          </p>
+        </article>
+
+
       </section>
       <section id="newsletter">
-        <article>
-          <h2>Pozostańmy w kontakcie! ;)</h2>
-          <p>
+        <article class="newsletter">
+          <h2 class="newsletter__title">Pozostańmy w kontakcie! ;)</h2>
+          <p class="newsletter__description">
             Jeśli spodobał Ci się artykuł daj mi koniecznie o tym znać. To
             pomoże mi nabrać wiatru w żagle a Ty dostaniesz w zamian nową porcję
             informacji ;)<br />
             Pozdrawiam i czekam na odpowiedź, hej! ;)
           </p>
-          <div id="button">napisz do mnie ;)</div>
+          <div class="newsletter__button" id="button">napisz do mnie ;)</div>
         </article>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       to jest stopka mojej strony i pasuje tu napisać coś mądrego -> 2021.03.17
-      <a href="#top">Wróć na górę strony</a>
+      <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
     <script></script>
     <script src="main.js"></script>

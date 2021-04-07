@@ -5,16 +5,23 @@ a {
 body{background: linear-gradient(
     30deg
     ,#e8e8eb,#e2e2f7);
-    max-width: 500%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
  
-footer{
+.footer{
     background: #4aeee677;
+   
+    max-width: 1000px;
+    margin: 0 auto;
     margin-top: 16px;
+}   
+
+.footer__link{
+    color: #720909
 }   
 
 h2{
@@ -101,4 +108,8 @@ a {
 .navigation__link--homepage{
     background: yellow;
     color: #000;
+}
+
+.main__heading{
+    color: #0b468a;
 }

@@ -19,14 +19,14 @@
       </nav>
     </header>
 
-    <main>
+    <main class="main">
       <header>
-        <h1>Nauka CSS</h1>
+        <h1 class="main__heading">Nauka CSS</h1>
       </header>
       <img src="css-icon1.jpg" alt="ikonka css" />
 
       <section class="my-love-notes">
-        <h2 id="notatki">Moje ulubione własności</h2>
+        <h2 class="my-love-notes__title" id="notatki">Moje ulubione własności</h2>
 
         <article class="learn-technique">
           <h3 class="learn-technique__title">background</h3>
@@ -38,11 +38,23 @@
           <p class="learn-technique__description">zmienia kolor tekstu</p>
         </article>
       </section>
+      <section id="newsletter">
+        <article class="newsletter">
+          <h2 class="newsletter__title">Pozostańmy w kontakcie! ;)</h2>
+          <p class="newsletter__description">
+            Jeśli spodobał Ci się artykuł daj mi koniecznie o tym znać. To
+            pomoże mi nabrać wiatru w żagle a Ty dostaniesz w zamian nową porcję
+            informacji ;)<br />
+            Pozdrawiam i czekam na odpowiedź, hej! ;)
+          </p>
+          <div class="newsletter__button" id="button">napisz do mnie ;)</div>
+        </article>
+      </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       to jest stopka mojej strony i pasuje tu napisać coś mądrego -> 2021.03.17
-      <a href="#top">Wróć na górę strony</a>
+      <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
   </body>
 </html>
