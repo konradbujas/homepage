@@ -14,8 +14,8 @@ a {
 }
 
 body{background: linear-gradient(
-    30deg
-    ,#e8e8eb,#e2e2f7);
+    52deg
+    ,#5050e6,#e2e2f7);
 }
 .main{
     max-width: 1000px;
@@ -106,6 +106,10 @@ a {
     background: #038a1a;
     padding: 16px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+
 }
 
 
@@ -119,6 +123,7 @@ a {
 .navigation__link--homepage{
     background: yellow;
     color: #000;
+    
 }
 
 .main__heading{
