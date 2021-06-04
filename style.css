@@ -25,10 +25,11 @@ body{background: linear-gradient(
  
 .footer{
     background: #4aeee677;
-   
+    border-radius: 10px;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 16px;
+    padding-left: 16px;
 }   
 
 .footer__link{
@@ -45,6 +46,8 @@ a {
 
 #newsletter{
     background: grey;
+    border-radius: 10px;
+    padding: 16px;
 }
 #button{
     background: #e68d09;
@@ -128,4 +131,45 @@ a {
 
 .main__heading{
     color: #0b468a;
+}
+
+.main{
+    display: grid;
+    grid-template-areas: "header header header"
+    "article . aside"
+    "newsletter . aside"
+    "footer footer footer";
+    grid-template-columns: 1fr 50px 200px;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+.header{
+    background: hotpink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.article{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.newsletter{
+    grid-area: newsletter;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.footer{
+    grid-area: footer;
 }
