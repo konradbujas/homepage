@@ -18,6 +18,7 @@ body {
 .main {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 16px;
 }
 
 .footer {
@@ -53,6 +54,13 @@ a {
   padding-left: 20px;
   width: 130px;
   margin-left: 38%;
+}
+
+.button__welcome{
+    background: rgb(60, 119, 5);
+    border: none;
+    border-radius: 5px;
+    min-width: 30vw;
 }
 
 .about-me {
@@ -165,8 +173,9 @@ a {
 
 @media screen and (min-width: 768px) {
   body {
-    background: hotpink;
+    background: linear-gradient(52deg, #5050e6, #e2e2f7);
   }
+
   .about-me__photo {
     margin-bottom: 16px;
   }
@@ -187,6 +196,7 @@ a {
     grid-template-columns: 1fr 50px 200px;
     column-gap: 16px;
     row-gap: 16px;
+    padding: 16px;
   }
   .main__heading {
     min-height: 50px;

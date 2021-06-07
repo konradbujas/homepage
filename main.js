@@ -7,10 +7,6 @@ const age=32;
 console.log(`nazywam się ${firstName} i mam ${age} lat(a)`)
 
 
-const heading = document.querySelector('.main__heading--js');
-
-
-heading.innerHTML = `Witaj <span>Drogi</span> Odwiedzający, mam na imię ${firstName} i mam ${age} lat(a)`
 
 const emptyParagraph = document.querySelector('.learn-technique__description--js');
 
@@ -56,7 +52,7 @@ const greetNew = (age, firstName) => {
         );
 
 }
-greetNew(3,'Milena');
+
 
 
 const hamburger = document.querySelector('.hamburger--js');
@@ -65,3 +61,16 @@ hamburger.addEventListener('click', () => {
     const nav = document.querySelector('.navigation--js');
     nav.classList.toggle('navigation--open');
 })
+
+
+const button = document.querySelector('.action--js');
+console.log(button)
+
+
+const myClick = () => {
+    console.log('kliknąłeś')
+    const heading = document.querySelector(".main__heading--js");
+    heading.innerHTML = `Witaj Drogi Odwiedzający ! <br/>Mam na imię Konrad ;)`;
+}
+
+button.addEventListener('click', myClick);
