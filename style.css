@@ -24,7 +24,7 @@ body {
 .footer {
   background: #4aeee677;
   border-radius: 10px;
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   margin-top: 16px;
   padding-left: 16px;
@@ -161,7 +161,7 @@ a {
 }
 
 .main {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 40px auto 0;
 }
 
