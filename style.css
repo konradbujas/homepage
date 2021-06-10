@@ -220,6 +220,18 @@ a {
     color: rgb(136, 7, 7);
   }
 
+  .grid__article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding: 16px;
+    column-gap: 32px;
+   
+  }
+
+
+
+
   .hamburger{
       display: none;
   }
