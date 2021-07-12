@@ -70,7 +70,7 @@ console.log(button)
 const myClick = () => {
     console.log('kliknąłeś')
     const heading = document.querySelector(".main__heading--js");
-    heading.innerHTML = `Witaj Drogi Odwiedzający ! <br/>Mam na imię Konrad ;)`;
+    heading.innerHTML = `Witaj Drogi Odwiedzający ! Mam na imię Konrad ;)`;
 }
 
 button.addEventListener('click', myClick);
