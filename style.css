@@ -100,6 +100,12 @@ a {
   border-radius: 10px;
 }
 
+.learn-technique:hover{
+  background: hotpink;
+}
+
+
+
 .learn-technique__description {
   color: #0761d6;
 }
@@ -109,7 +115,7 @@ a {
 }
 
 .learn-technique__title::before {
-  content: "  ";
+  content: "";
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -119,7 +125,7 @@ a {
 }
 
 .learn-technique__title::after {
-  content: "  ";
+  content: "";
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -181,6 +187,14 @@ a {
   color: rgb(119, 64, 64);
   display: block;
   margin: 0 0 16px;
+}
+
+.navigation__link:hover{
+  color: #0761d6;
+}
+
+.navigation__link:visited{
+  color: #b4b6b8;
 }
 
 .navigation__link--homepage {
