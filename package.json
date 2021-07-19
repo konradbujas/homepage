@@ -1,0 +1,22 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Hello! My name is Konrad and it is my first project to junior in IT world ;) \r I'm actually a student in WTF: What The Frontend by Maciek Korsan ;) \r I know my english is not very well, but I'm still working on it hehe...",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konradbujas/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konradbujas/homepage/issues"
+  },
+  "homepage": "https://github.com/konradbujas/homepage#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
