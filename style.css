@@ -101,7 +101,8 @@ a {
 }
 
 .learn-technique:hover{
-  background: hotpink;
+  background: rgb(237, 243, 241);
+  border: 3px blue solid;
 }
 
 
@@ -245,6 +246,16 @@ a {
   }
   .main__heading {
     min-height: 50px;
+  }
+
+  .main__heading::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  
+  background: rgb(218, 169, 36);
+  margin-right: 12px;
   }
   .navigation {
     background: rgb(255, 255, 255);
