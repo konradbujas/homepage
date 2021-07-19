@@ -4,6 +4,7 @@
   "description": "Hello! My name is Konrad and it is my first project to junior in IT world ;) \r I'm actually a student in WTF: What The Frontend by Maciek Korsan ;) \r I know my english is not very well, but I'm still working on it hehe...",
   "main": "main.js",
   "scripts": {
+    "cow": "cowsay -s hello world! ;)",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/konradbujas/homepage#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "cowsay": "^1.5.0"
   }
 }
