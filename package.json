@@ -21,6 +21,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "cowsay": "^1.5.0"
+    "cowsay": "^1.5.0",
+    "node-sass": "^4.13.1"
   }
 }
