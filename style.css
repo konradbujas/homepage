@@ -15,6 +15,7 @@ a {
 body {
   background: linear-gradient(52deg, #5050e6, #e2e2f7);
 }
+
 .main {
   max-width: 1000px;
   margin: 0 auto;
@@ -29,7 +30,6 @@ body {
   margin-top: 16px;
   padding-left: 16px;
 }
-
 .footer__link {
   color: #720909;
 }
@@ -42,12 +42,12 @@ a {
   color: #0313eb;
 }
 
-#newsletter {
+.newsletter {
   background: grey;
   border-radius: 10px;
   padding: 16px;
 }
-#button {
+.newsletter__button {
   background: #e68d09;
   border-radius: 10px;
   border: 2px solid #6c3ff3;
@@ -56,17 +56,14 @@ a {
   margin-left: 38%;
 }
 
-.button__welcome{
-    background: rgb(60, 119, 5);
-    border: none;
-    border-radius: 5px;
-    min-width: 50%;
-    
-    display: flex;
-  
-    justify-content: center;
-    align-content: center;
-    
+.button__welcome {
+  background: #3c7705;
+  border: none;
+  border-radius: 5px;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .about-me {
@@ -76,14 +73,12 @@ a {
   display: block;
   order: 2;
 }
-
 .about-me__description {
   color: #1f0255;
 }
 .about-me__heading {
   color: #e68d09;
 }
-
 .about-me__photo {
   float: left;
   margin-right: 16px;
@@ -99,22 +94,19 @@ a {
   margin-bottom: 16px;
   border-radius: 10px;
 }
-
-.learn-technique:hover{
-  background: rgb(237, 243, 241);
+.learn-technique--special {
+  border: 3px #026312 solid;
+}
+.learn-technique:hover {
+  background: #edf3f1;
   border: 3px blue solid;
 }
-
-
-
 .learn-technique__description {
   color: #0761d6;
 }
-
 .learn-technique__title {
   color: #880a01;
 }
-
 .learn-technique__title::before {
   content: "";
   display: inline-block;
@@ -124,7 +116,6 @@ a {
   background: blue;
   margin-right: 12px;
 }
-
 .learn-technique__title::after {
   content: "";
   display: inline-block;
@@ -135,12 +126,8 @@ a {
   margin-left: 12px;
 }
 
-.learn-technique--special {
-  border: 3px #026312 solid;
-}
-
 .header {
-  background: rgb(199, 102, 11);
+  background: #c7660b;
   padding: 8px;
   top: 0;
   width: 100%;
@@ -150,26 +137,24 @@ a {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-
 }
-
 .header__navigation {
   background: #fff;
   min-height: 40px;
   position: fixed;
   top: 0;
   width: 100%;
-  
-  
 }
-.hamburger{
-    position: absolute;
-    top: 12px;
-    right: 16px;
-    border: none;
-    background: none;
-    color: rgb(66, 22, 224);
+
+.hamburger {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  border: none;
+  background: none;
+  color: #4216e0;
 }
+
 .navigation {
   background: #fff;
   padding: 16px;
@@ -179,36 +164,30 @@ a {
   width: 100%;
   display: none;
 }
-
-.navigation--open{
-    display: block;
+.navigation--open {
+  display: block;
 }
-
 .navigation__link {
-  color: rgb(119, 64, 64);
+  color: #774040;
   display: block;
   margin: 0 0 16px;
 }
-
-.navigation__link:hover{
-  color: #0761d6;
+.navigation__link--homepage {
+  color: #880707;
 }
-
-.navigation__link:visited{
+.navigation__link:visited {
   color: #b4b6b8;
 }
-
-.navigation__link--homepage {
-  color: rgb(136, 7, 7);
-}
-
-.main__heading {
-  color: #0b468a;
+.navigation__link:hover {
+  color: #0761d6;
 }
 
 .main {
   max-width: 1200px;
   margin: 40px auto 0;
+}
+.main__heading {
+  color: #0b468a;
 }
 
 @media screen and (max-width: 767px) {
@@ -216,7 +195,6 @@ a {
     display: none;
   }
 }
-
 @media screen and (min-width: 768px) {
   body {
     background: linear-gradient(52deg, #5050e6, #e2e2f7);
@@ -229,16 +207,14 @@ a {
   .mobile {
     display: none;
   }
+
   .myScreen {
-    color: rgb(218, 231, 39);
+    color: #dae727;
   }
+
   .main {
     display: grid;
-    grid-template-areas:
-      "header header header"
-      "article . aside"
-      "newsletter . aside"
-      "footer footer footer";
+    grid-template-areas: "header header header" "article . aside" "newsletter . aside" "footer footer footer";
     grid-template-columns: 1fr 50px 200px;
     column-gap: 16px;
     row-gap: 16px;
@@ -247,49 +223,41 @@ a {
   .main__heading {
     min-height: 50px;
   }
-
   .main__heading::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  
-  background: rgb(218, 169, 36);
-  margin-right: 12px;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #daa924;
+    margin-right: 12px;
   }
+
   .navigation {
-    background: rgb(255, 255, 255);
+    background: white;
     padding: 16px;
     display: flex;
     justify-content: center;
     align-content: stretch;
     margin: 0 0 100px;
   }
-
   .navigation__link {
-    color: rgb(119, 64, 64);
+    color: #774040;
     display: inline-block;
     margin-right: 20px;
   }
-
   .navigation__link--homepage {
-    color: rgb(136, 7, 7);
+    color: #880707;
   }
 
-  .grid__article{
+  .grid__article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
     padding: 16px;
     column-gap: 32px;
-   
   }
 
-
-
-
-  .hamburger{
-      display: none;
+  .hamburger {
+    display: none;
   }
 
   .header {
@@ -322,6 +290,8 @@ a {
 
   .footer {
     grid-area: footer;
-    background: rgb(4, 185, 131);
+    background: #04b983;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
