@@ -8,10 +8,21 @@ console.log(`nazywam się ${firstName} i mam ${age} lat(a)`)
 
 
 
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+    console.log('kliknąłeś na burgerka')
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
+
+
+
+
 const emptyParagraph = document.querySelector('.learn-technique__description--js');
 
 emptyParagraph.innerHTML = `w ćwiczeniu używamy metody inner.HTML i za jej pomocą możemy "wstrzyknąć"
-zawartość do wybranego elemnentu - chyba się udało ;))`
+zawartość do wybranego elemnentu - chyba się udało ;))`;
 
 function calculate(myNumber) {
     console.log(`Dostałam ${myNumber}`);
@@ -55,12 +66,6 @@ const greetNew = (age, firstName) => {
 
 
 
-const hamburger = document.querySelector('.hamburger--js');
-
-hamburger.addEventListener('click', () => {
-    const nav = document.querySelector('.navigation--js');
-    nav.classList.toggle('navigation--open');
-})
 
 
 const button = document.querySelector('.action--js');
@@ -74,3 +79,4 @@ const myClick = () => {
 }
 
 button.addEventListener('click', myClick);
+
