@@ -1,3 +1,24 @@
+:root {
+  --background-color: rgb(55, 56, 59);
+  --text-color: rgb(114, 107, 107);
+}
+
+
+
+
+body{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.mode--js{
+  position: absolute;
+    top: 12px;
+    right: 16px;
+    border: none;
+}
+  
+
+
 html {
     box-sizing: border-box;
   }
@@ -198,6 +219,27 @@ html {
     .myScreen {
       display: none;
     }
+
+    :root {
+      --background-color: rgb(55, 56, 59);
+      --text-color: rgb(114, 107, 107);
+    }
+    
+    
+    
+    
+    body{
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+    .mode--js{
+      position: absolute;
+      z-index: 2;
+        top: 12px;
+        right: 16px;
+        border: none;
+    }
+      
   }
   
   @media screen and (min-width: 768px) {
@@ -299,5 +341,26 @@ html {
       grid-area: footer;
       background: rgb(4, 185, 131);
     }
+
+
+    :root {
+      --background-color: rgb(55, 56, 59);
+      --text-color: rgb(114, 107, 107);
+    }
+    
+    
+    
+    
+    body{
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+    .mode--js{
+      position: absolute;
+        top: 12px;
+        right: 16px;
+        border: none;
+    }
+      
   }
   
