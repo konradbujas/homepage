@@ -1,3 +1,20 @@
+:root {
+  --background-color: rgb(55, 56, 59);
+  --text-color: rgb(114, 107, 107);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.mode--js {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  border: none;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -43,7 +60,7 @@ a {
 }
 
 .newsletter {
-  background: grey;
+  background: #a8a5a5;
   border-radius: 10px;
   padding: 16px;
 }
@@ -77,7 +94,7 @@ a {
   color: #1f0255;
 }
 .about-me__heading {
-  color: #e68d09;
+  color: #6a7ba1;
 }
 .about-me__photo {
   float: left;
@@ -127,7 +144,7 @@ a {
 }
 
 .header {
-  background: #c7660b;
+  background: rgba(138, 176, 201, 0.637);
   padding: 8px;
   top: 0;
   width: 100%;
@@ -150,6 +167,15 @@ a {
   position: absolute;
   top: 12px;
   right: 16px;
+  border: none;
+  background: none;
+  color: #4216e0;
+}
+
+.mode--js {
+  position: absolute;
+  top: 12px;
+  right: 100px;
   border: none;
   background: none;
   color: #4216e0;
@@ -193,6 +219,24 @@ a {
 @media screen and (max-width: 767px) {
   .myScreen {
     display: none;
+  }
+
+  :root {
+    --background-color: rgb(55, 56, 59);
+    --text-color: rgb(114, 107, 107);
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  .mode--js {
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    right: 16px;
+    border: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -291,6 +335,23 @@ a {
   .footer {
     grid-area: footer;
     background: #04b983;
+  }
+
+  :root {
+    --background-color: rgb(55, 56, 59);
+    --text-color: rgb(114, 107, 107);
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  .mode--js {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    border: none;
   }
 }
 

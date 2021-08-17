@@ -64,7 +64,7 @@ html {
   }
   
   .newsletter {
-    background: grey;
+    background: #a8a5a5;
     border-radius: 10px;
     padding: 16px;
     &__button {
@@ -99,7 +99,7 @@ html {
         color: #1f0255;
       }
     &__heading {
-        color: #e68d09;
+        color: #6a7ba1;
       }
     &__photo {
         float: left;
@@ -152,7 +152,7 @@ html {
   
   
   .header {
-    background: rgb(199, 102, 11);
+    background: rgba(138, 176, 201, 0.637);
     padding: 8px;
     top: 0;
     width: 100%;
@@ -179,6 +179,16 @@ html {
       background: none;
       color: rgb(66, 22, 224);
   }
+  .mode--js{
+    position: absolute;
+      top: 12px;
+      right: 100px;
+      border: none;
+      background: none;
+      color: rgb(66, 22, 224);
+  }
+
+
   .navigation {
     background: #fff;
     padding: 16px;
