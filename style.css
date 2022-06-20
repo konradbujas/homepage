@@ -11,7 +11,7 @@ body {
 .mode--js {
   position: absolute;
   top: 12px;
-  right: 16px;
+  right: 100px;
   border: none;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 
 body {
-  background: linear-gradient(52deg, #5050e6, #e2e2f7);
+  background-color: linear-gradient(52deg, #5050e6, #e2e2f7);
 }
 
 .main {
@@ -235,7 +235,7 @@ a {
     position: absolute;
     z-index: 2;
     top: 12px;
-    right: 16px;
+    right: 100px;
     border: none;
   }
 }
@@ -350,7 +350,7 @@ a {
   .mode--js {
     position: absolute;
     top: 12px;
-    right: 16px;
+    right: 100px;
     border: none;
   }
 }

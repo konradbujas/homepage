@@ -13,7 +13,7 @@ body{
 .mode--js{
   position: absolute;
     top: 12px;
-    right: 16px;
+    right: 100px;
     border: none;
 }
   
@@ -186,6 +186,7 @@ html {
       border: none;
       background: none;
       color: rgb(66, 22, 224);
+      display: block;
   }
 
 
@@ -244,9 +245,9 @@ html {
     }
     .mode--js{
       position: absolute;
-      z-index: 2;
+      z-index: 1;
         top: 12px;
-        right: 16px;
+        right: 100px;
         border: none;
     }
       
@@ -368,7 +369,7 @@ html {
     .mode--js{
       position: absolute;
         top: 12px;
-        right: 16px;
+        right: 100px;
         border: none;
     }
       
