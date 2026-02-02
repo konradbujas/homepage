@@ -24,12 +24,38 @@ console.log(`nazywam się ${firstName} i mam ${age} lat(a)`)
 
 
 const hamburger = document.querySelector('.hamburger--js');
+console.log(hamburger);
 
-hamburger.addEventListener('click', () => {
-    console.log('kliknąłeś na burgerka')
+const myHamburger = () => {
+    console.log('kliknąłeś na burgerka');
     const nav = document.querySelector('.navigation--js');
     nav.classList.toggle('navigation--open');
-})
+}
+hamburger.addEventListener('click', myHamburger);
+
+
+
+// hamburger.addEventListener('click', () => {
+//     console.log('kliknąłeś na burgerka')
+//     const nav = document.querySelector('.navigation--js');
+//     nav.classList.toggle('navigation--open');
+// })
+
+
+
+
+// const button = document.querySelector('.action--js');
+// console.log(button)
+
+
+// const myClick = () => {
+//     console.log('kliknąłeś')
+//     const heading = document.querySelector(".main__heading--js");
+//     heading.innerHTML = `Witaj Drogi Odwiedzający ! Mam na imię Konrad ;)`;
+// }
+
+// button.addEventListener('click', myClick);
+
 
 
 
